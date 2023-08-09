@@ -9,7 +9,7 @@ const Home = () => {
     <section className="section">
       <div className="container mx-auto h-full relative">
         {/*text and img wrapper*/}
-        <div className="flex flex-col justify-start">
+        <div className="flex flex-col justify-center">
           {/*text*/}
           <div
             className="w-full pt-36 pb-14 lg:pt-0 lg:pb-0 
@@ -28,7 +28,9 @@ const Home = () => {
             <Link to={'/contact'} className="btn mb-[30px]">hire me</Link>
           </div>
           {/*image*/}
-          <div>image</div>
+          <div className="flex justify-end">
+            <img src={WomanImg} alt=""/>
+          </div>
         </div>
       </div>
     </section>
